@@ -12,3 +12,7 @@
   text-decoration: underline;
   
 }
+
+#cat-showing {
+  display: none;
+}
