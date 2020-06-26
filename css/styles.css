@@ -16,3 +16,15 @@
 #cat-showing {
   display: none;
 }
+
+#iguana-showing {
+  display: none;
+}
+
+.clickable2:hover {
+  text-decoration:underline;
+}
+
+.clickable1:hover {
+  text-decoration: underline;
+}
