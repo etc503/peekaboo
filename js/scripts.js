@@ -14,7 +14,14 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $(".clickable2").click(function() {
-    $("#iguana-showing").fadeIn();.toggle();
-    $("#iguana-hidden").fadeOut();
+    $("#iguana-showing").fadeOut();
+    $("#iguana-hidden").fadeIn();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable3").click(function() {
+    $("#squirrel-showing").toggle();
+    $("#squirrel-hidden").toggle();
   });
 });
